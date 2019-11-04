@@ -1,38 +1,45 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 <title>Home</title>
 </head>
-
 <body>
+     <nav class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="beaches.html">Beaches</a>
+        <a href="activities.html">Activities</a>
+        <a href="ccbl.html">Cape Cod Baseball League</a>
+                    
+        <input type="text" placeholder="Search...">
+     </nav>
 <header class="home-header">
-<p class="home-site-name"> Welcome to Cape Cod </p>
+<h1>Welcome to Cape Cod</h1>
 </header>
-<aside class="home-nav-buttons">
-<ul class="home-nav-button">
-    <li>Home</li>
-    <li>Beaches</li>
-    <li>Activities</li>
-    <li>Cape Cod Baseball League</li>
-</ul>
 
-</aside>
 <main class="home-main">
-    <article class="flex-item">
-        <p>Cape Cod, Massachusetts</p>
-        <img src="project-media/capecod.jpg" alt="Cape Cod"/>
+    <section class="row">
+            <img src="images/capecod.jpg" alt="Cape Cod"/>
+    <article class="col">
+        <p>Cape Cod was first settled by European explorers in the early 1600s. The first towns that were setteld were Sandwich, Barnstable and Yarmouth along the bay. The Wampanoag tribe who had already been settled on the Cape taught the settlers useful skills to live on the land. </p>
+        <p>Tourism started to boom during the 19th century when people in Boston started to travel to the Cape. Tourism continued to grow as a train service from Boston was built and reached Sandwich in 1848 and up to Provincetown by 1873. From there, factors like building the Cape Cod highway, the establishment of the National Seashore and the Kennedy family vacationing in Hyannis attracted more and more people.</p>
     </article>  
-    <article class="flex-item">
-        <p>Map</p>
-        <img src="project-media/map.jpg" alt="Map"/>
+    </section>
+    <section class="col">
+        <h2>Where is Cape Cod?</h2>
+            <p> Cape Cod is located on the Eastern shore of the United States. It is a peninsula off of Massachusetts and is commonly referred to looking like a hooked arm. Cape Cod is approximately one hour and 15 minutes south of Boston. To get from the Cape Cod canal in Sandwich, MA to the tip of Cape Cod in Provincetown, MA it takes just over one hour.</p>
+    <article class="row">
+        <img src="images/map.jpg" alt="Map"/>
     </article>
+    </section>
+    <section class="row">
     <article class="flex-item">
-            <p>Text box: History of Cape Cod</p>
-            <p>Text box: Fun Facts</p>
-        </article>
-        <article class="flex-item">
-            <p>Text box: Cape cod Location</p>
-            <p>Text box: Information on getting to Cape Cod and the islands</p>
+           <h2>Fun Facts</h2>
+           <ul>
+                <li>Cape Cod was named by English explorer, Bartholomew Gosnold, who docked and caught a large amount of codfish.</li>
+                <li>When the pilgrims journeyed over, they first docked in Provincetown at the tip of Cape Cod but believed they were too exposed. From there, they decided to keep sailing until they reached Plymouth, MA.</li>
+                <li>The first towns occupied were set up along a trail the Native Americans used which is now Route 6A, Cape Cod's main highway.</li>
+            </ul>
         </article>
 </main>
 

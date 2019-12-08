@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(162, 211, 252);
+    background-color: rgb(186, 222, 252);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .row{
@@ -19,4 +19,7 @@ body {
 h1 {
     text-align: center;
     font-family: cursive;
+}
+h2 {
+    text-align: center;
 }
